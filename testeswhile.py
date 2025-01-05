@@ -50,3 +50,20 @@ while i <= 3:
         j += 1
     i += 1
 
+
+# TESTE 6 - WHILE COM ENTRADA DE DADOS
+entrada = ""
+
+while entrada != "sair":
+    entrada = input('Digite alguma frase bacana ou digite "sair" para finalizar o programa: ')
+    if entrada != "sair":
+        print (f"Frase legal: {entrada}")
+
+# TESTE 7 - WHILE COM ENTRADA DE DADOS
+
+n1 = 0
+
+while n1 != 3:
+    n1 = int(input("Acerte o número de 1 a 5: "))
+    if n1 == 3:
+        print (f"Parabéns! Você acertou o número da sorte! {n1}")
