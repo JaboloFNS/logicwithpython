@@ -67,3 +67,5 @@ while n1 != 3:
     n1 = int(input("Acerte o número de 1 a 5: "))
     if n1 == 3:
         print (f"Parabéns! Você acertou o número da sorte! {n1}")
+
+
