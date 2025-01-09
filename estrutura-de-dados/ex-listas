@@ -1,0 +1,11 @@
+nomes = []
+resposta = str ("s")
+
+while resposta != "n":
+    novo_nome = str(input("Cadastre um nome: "))
+    nomes.append(novo_nome)
+    resposta = str(input("Deseja cadastrar mais um nome? [s/n] "))
+    if resposta != "s" and resposta != "n":
+        print ("Entrada inválida, programa encerrado.")
+
+print(nomes)
