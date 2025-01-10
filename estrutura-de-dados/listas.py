@@ -31,3 +31,32 @@ fruta_removida = frutas.pop(2)
 print(f"A fruta removida com o função pop foi: {fruta_removida}")
 
 print(frutas)
+
+#Utilizando a estrutura de repetição if, conseguimos conferir se determinado elemento está registrado na lista.
+nomes = ["Luana", "Cleide", "Jakeline", "Fabiano"]
+
+nome_consultado = input("Nome a ser consultado: ")
+if nome_consultado in nomes:
+    print ("Nome consta em nosso banco de dados")
+else:
+    print ("Nome não cadastrado")    
+
+#Utilizando estruturas de repetição, conseguimos solicitar inserções na lista até que se complete uma condição
+
+cidades = []
+
+for i in range(3):
+    cidade = str(input("Ensira uma cidade:"))
+    cidades.append(cidade)
+print (cidades)
+
+
+paises = []
+resp = str("s")
+while resp == "s":
+    pais = str(input("Ensira países:"))
+    paises.append(pais)
+    resp = str(input("Deseja continuar a operação? [s/n]"))
+
+print(paises)
+    
