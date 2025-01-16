@@ -49,3 +49,25 @@ print(resultado)
 #Funções lambda são funções anônimas, definidas em uma linha e usadas para expressões simples.
 dobro = lambda x: x *2
 print(dobro(10))
+
+#Funções podem ser passadas como argumentos apra outras funções, aumentando a flexibilidade e modularidade.
+def aplicar_operacao (funcao,valor):
+    return funcao(valor)
+
+def quadrado(x):
+    return x ** 2
+
+resultado = aplicar_operacao(quadrado, 5)
+print(resultado)
+
+#Funções recursivas ocorrem quando uma função chama a si mesma para resolver um problema.
+
+def fatorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * fatorial(n - 1)
+
+for i in fatorial():
+    print(i)
+print (fatorial(5))
