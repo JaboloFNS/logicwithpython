@@ -68,6 +68,4 @@ def fatorial(n):
     else:
         return n * fatorial(n - 1)
 
-for i in fatorial():
-    print(i)
 print (fatorial(5))
