@@ -82,3 +82,25 @@
 # else:
 #     alt_woman = (62.1 * altura) - 44.7
 #     print (f"{nome}, seu peso ideal é {alt_woman}")
+
+#Um vendedor recebe uma comissão por suas vendas. Dependedo do valor da venda, a comissão varia.
+# - 5% para vendas até R$ 1000,00
+# - 7,5% para vendas entre 1000,01 e 5000,00
+# - 10% para vendas entre 5.000,01 e 10000,00
+# Escreva um programa em Python que calcule a comissão do vendedor,
+# dado o valor da venda e o nome do vendedor.
+
+nome_vendedor = str(input("Olá, vendedor! Para começar, ensira seu nome: "))
+valor_venda = float(input(f"{nome_vendedor}, ensira o valor de sua última venda para calcularmos sua comissão: R$ "))
+
+
+if valor_venda <= 1000.00:
+    comissao = valor_venda * 0.05
+    print(f"Sua comissão é de {comissao}")
+elif valor_venda > 1000.00 and valor_venda <= 5000.00:
+    comissao = valor_venda * 0.075
+    print(f"Sua comissão é de {comissao}")
+elif valor_venda > 5000.00 and valor_venda <= 10000.00:
+    comissao = valor_venda * 0.1
+    print(f"Sua comissão é de {comissao}")
+
