@@ -67,23 +67,23 @@
 
 # 6) Menu simples com estrutura de repetição
 
-opcao = ''
-while opcao != '0':
-    print("1 - Nome do Aluno")
-    print("2 - Nota do Aluno")
-    print("3 - Situação do Aluno")
-    print("0 - Sair")
-    opcao = input ("Digite uma opção: ")
-    if opcao == '1':
-        print ("Josué")
-        input("digite enter para continuar...")
-    elif opcao == '2':
-        print("8.5")
-        input("digite enter para continuar...")
-    elif opcao == '3':
-        print("Aprovado!")
-        input("digite enter para continuar...")
-    elif opcao == '0':
-        print("Saindo do Sistema...")
-    else:
-        print("Opção errada, tente novamente!")
+# opcao = ''
+# while opcao != '0':
+#     print("1 - Nome do Aluno")
+#     print("2 - Nota do Aluno")
+#     print("3 - Situação do Aluno")
+#     print("0 - Sair")
+#     opcao = input ("Digite uma opção: ")
+#     if opcao == '1':
+#         print ("Josué")
+#         input("digite enter para continuar...")
+#     elif opcao == '2':
+#         print("8.5")
+#         input("digite enter para continuar...")
+#     elif opcao == '3':
+#         print("Aprovado!")
+#         input("digite enter para continuar...")
+#     elif opcao == '0':
+#         print("Saindo do Sistema...")
+#     else:
+#         print("Opção errada, tente novamente!")
